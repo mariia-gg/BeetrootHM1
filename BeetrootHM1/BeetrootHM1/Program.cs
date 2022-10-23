@@ -14,6 +14,14 @@ namespace ConsoleApp16
             Console.WriteLine("Долари переведенi в гривнi ");
             Console.WriteLine("Grn " + dollar * grn);
 
+            int grn_2 = 36;
+            Console.WriteLine(" Введiть євро: ");
+            var euro = Decimal.Parse(Console.ReadLine());
+
+            Console.WriteLine("euro " + euro);
+            Console.WriteLine("Євро переведенi в гривнi ");
+            Console.WriteLine("Grn " + euro * grn);
+
         }
     }
 }
